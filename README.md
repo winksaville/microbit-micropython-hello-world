@@ -1,9 +1,14 @@
-# MicroPython hello-world
+# micro:bit MicroPython hello-world
 
-Based on https://microbit-micropython.readthedocs.io/en/latest/tutorials/hello.html
+This is Based on https://microbit-micropython.readthedocs.io/en/latest/tutorials/hello.html
+and it's just python code edited with a text editor.
+I use vim and the use
+[`uflash`](https://github.com/ntoll/uflash)
+to flash the code onto the micro:bit.
 
-Showing use of `delay` and `loop` parameters of
-[`display`](https://microbit-micropython.readthedocs.io/en/latest/display.html).
+It's a little more than just displaying as it uses `delay` and `loop` parameters of
+[`display`](https://microbit-micropython.readthedocs.io/en/latest/display.html) to
+control the animation.
 
 # Build
 
